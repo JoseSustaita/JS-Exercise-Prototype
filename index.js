@@ -107,10 +107,10 @@ Baby.prototype.play = function () {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1.  The this keyword allows for the default binding of function.
+  2. The this keyword allows for implicit binding and can be used when a function is called.
+  3. The this keyword allows us to explicity set it to an value by using .call or .apply.
+  4.  The this keyword allows us to set it to a new object by using the new keyword.
 */
 
 
