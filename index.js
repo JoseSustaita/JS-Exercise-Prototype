@@ -50,6 +50,10 @@ Person.prototype.eat = function (someFood) {
     return this.stomach.push(someFood);
   }
 };
+Person.prototype.poop = function () {
+  this.stomach = [];
+  return this.stomach;
+}
 
 
 
